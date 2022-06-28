@@ -615,6 +615,16 @@ footer {
       flex: 0 0 33%;
       text-align: center; } }
 
+@media (max-width: 575px) {
+  .section3 .items-wrapper .item .mobile-number {
+    margin-right: 10px; }
+  .section3 .items-wrapper .item .item-content {
+    align-items: flex-start; }
+  .section4 .items-wrapper .item .mobile-number {
+    margin-right: 10px; }
+  .section4 .items-wrapper .item .item-content {
+    align-items: flex-start; } }
+
 @keyframes toggleOnCheckbox {
   0% {
     opacity: 0;
