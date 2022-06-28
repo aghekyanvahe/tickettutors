@@ -515,9 +515,10 @@ footer {
   padding: 100px 0 30px 0;
   background: #ffffff;
   position: relative;
-  overflow: hidden; }
+  overflow: hidden;
+  max-height: 400px; }
   footer .logo {
-    margin: 0 auto;
+    margin: 50px auto 0;
     display: flex;
     justify-content: center; }
   footer ul {
@@ -544,17 +545,14 @@ footer {
     font-weight: 500;
     font-size: 14px;
     color: rgba(26, 45, 107, 0.5); }
-  footer:before {
-    content: "";
+  footer .radial {
     width: 140vw;
     height: 127vw;
     background: linear-gradient(rgba(12, 139, 253, 0.5) -30%, transparent 10%);
     border-radius: 50%;
-    border: 1px solid;
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
-    top: 0; }
+    border: 1px solid rgba(12, 139, 253, 0.5);
+    margin-left: -20vw;
+    margin-top: -280px; }
 
 @media (max-width: 1199px) {
   .nav-item .nav-link {
